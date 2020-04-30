@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: api
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+server:
+  port: 8085
+
+mongodb:
+  first:
+    #    uri: mongodb://special:TUyoo%40123!@10.8.31.36:20000,10.8.31.37:20000,10.8.31.38:20000/users_feature
+    uri: mongodb://localhost:27017/test
+  second:
+    #    uri: mongodb://special:TUyoo%40123!@10.8.31.36:20000,10.8.31.37:20000,10.8.31.38:20000/ga_features
+    uri: mongodb://localhost:27017/test
+
+#  spring.data.mongodb.uri=mongodb://localhost:27017/
+#  spring.data.mongodb.database=test
+#spring.data.mongodb.uri=mongodb://10.8.31.36:20000,10.8.31.37:20000,10.8.31.38:20000
+#spring.data.mongodb.username=special
+#spring.data.mongodb.password=TUyoo@123!
+#spring.data.mongodb.database=users_feature
+#spring.data.mongodb.authentication-database=
